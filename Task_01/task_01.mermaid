@@ -36,6 +36,6 @@ class Amenity {
     + updated_at: str
 }
 
-User "1" --> "* Plusieur Place *" Place : Owns("Posséde")
-Place "1" --> "* Plusieur Review *" Review : Receives("Reçoit")
-Place "1" --> "* Plusieur Amenity" Amenity : Has("a")
+User "1" --> "* Plusieur Place ou 0 *" Place : Owns("Posséde")
+Place "1" --> "* Plusieur Review ou 0*" Review : Receives("Reçoit")
+Place "1" --> "* Plusieur Amenity ou 0" Amenity : Has("a")
