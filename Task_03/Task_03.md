@@ -49,7 +49,7 @@ PresentationLayer --> BusinessLogicLayer: Uses the Facade Pattern to simplify in
 BusinessLogicLayer --> PersistenceLayer: Performs database operations.
 
 # 1. Detailed Class Diagram for Business Logic Layer
-``` Mermaid
+``` mermaid
 classDiagram
 class User {
     + uuid: UUID
@@ -110,7 +110,7 @@ The class diagram illustrates the key entities of the HBnB project and their rel
 
 # 2. Sequence Diagrams for API Calls
 ## User Registration
-```
+```mermaid
 sequenceDiagram
 participant User
 participant API
@@ -136,7 +136,7 @@ This sequence diagram outlines the process of user registration in the HBnB proj
 This flow demonstrates how the user registration process is handled across different layers of the application, ensuring that user data is validated and stored securely.
 
 ## Place Creation
-```
+```mermaid
 sequenceDiagram
 participant User
 participant API
@@ -162,7 +162,7 @@ This sequence diagram illustrates the process of creating a new place in the HBn
 This flow explains how a user can create a new place, going through validation, creation, and storage in the database.
 
 ## Review Submission
-```
+```mermaid
 sequenceDiagram
 participant User
 participant API
@@ -188,7 +188,7 @@ This sequence diagram outlines the process of submitting a review for a place in
 This flow describes how a review is processed, validated, saved in the database, and then returned to the user with a success or failure status.
 
 ## Fetching a List of Places
-```
+```mermaid
 sequenceDiagram
 participant User
 participant API
