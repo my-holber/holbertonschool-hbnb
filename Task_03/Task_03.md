@@ -4,7 +4,7 @@
 This document provides an in-depth overview of the architecture and design of the HBnB project. It consolidates key diagrams, including the system architecture, class structures, and API interaction flows, along with detailed explanatory notes that describe the various components and their interactions. The primary goal of this document is to serve as a clear reference for developers and stakeholders throughout the development phases, ensuring a cohesive and structured approach to building the HBnB application.
 
 ### 0. High-Level Package Diagram
-```
+```mermaid
 classDiagram
 class PresentationLayer {
     <<Interface>>
