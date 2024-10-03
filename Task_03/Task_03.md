@@ -9,7 +9,7 @@ classDiagram
 class PresentationLayer {
     <<Interface>>
     +ServiceAPI
-    +UserInterface()
+    +UserInterface() 'UI'
 }
 class BusinessLogicLayer {
     + UserModel()
